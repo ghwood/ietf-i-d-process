@@ -10,7 +10,7 @@ Internet-Drafts (I-Ds) are the starting point for discussions in the IETF commun
 
 ## Additional work on and uses for this diagram
 
-This diagram is created to further understand the flow of I-Ds in the IETF. It may be teh bases for 
+This diagram is created to further understand the flow of I-Ds in the IETF.
 
 #### Generic I-D flow within the IETF
 ```mermaid
