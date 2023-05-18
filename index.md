@@ -10,9 +10,9 @@ Internet-Drafts (I-Ds) are the starting point for discussions in the IETF commun
 
 ## Additional work on and uses for this diagram
 
-This diagram is created largely to 
+This diagram is created to further understand the flow of I-Ds in the IETF. It may be teh bases for 
 
-#### [Problem Details for HTTP APIs](https://datatracker.ietf.org/doc/draft-ietf-httpapi-rfc7807bis/) - _[repository](https://github.com/ietf-wg-httpapi/rfc7807bis)_
+#### Generic I-D flow within the IETF
 ```mermaid
 graph LR
     classDef I-D-Authoring fill:orange
@@ -26,19 +26,21 @@ graph LR
     I-D-submission ----> BOF
     I-D-submission ----> expires
     WG-Adopt ----> WGLC
-    WGLC --draft-04--> AD-Review
+    WGLC ----> AD-Review
     AD-Review --> IETF-LC
     class IETF-LC lastIETF
     IETF-LC --> IANA-Review 
-    IETF-LC --draft-06--> IESG-Review((IESG-Review))
+    IETF-LC ----> IESG-Review((IESG-Review))
     class IESG-Review current
-    IANA-Review --draft-04--> IESG-Review
+    IANA-Review ----> IESG-Review
     IESG-Review --> RFC-Editor
     RFC-Editor --> RFC
 
 
 ```
 
+#### Information about authoring Internet-Drafts
+The [authors.ietf.org](https://authors.ietf.org) site is the central resource site for authors of an Internet-Draft (I-D), with information on how to write an I-D and the tools available to support this. If you are new to authoring then begin with the introduction below or if you are more familiar then the main menu lists multiple individual topics.
 
 See also the [official document listing](https://datatracker.ietf.org/wg/httpapi/documents/).
 
@@ -56,10 +58,6 @@ We think that the following sorts of people will be able to effectively contribu
 Others are, of course, welcome to join.
 
 
-## How to Participate
+## Note Well
 
-**Everyone who participates needs to understand the [IETF NOTE WELL](https://www.ietf.org/about/note-well/) conditions**. This includes the Intellectual Property terms, code of conduct, and other important policies.
-
-If you plan on actively participating, subscribing to the [working group mailing list](https://www.ietf.org/mailman/listinfo/httpapi) is encouraged but not required.
-
-Anyone can make comments or pull requests to the specification repositories (see above).
+**Everyone who submits and I-D to the IETF repository needs to understand the [IETF NOTE WELL](https://www.ietf.org/about/note-well/) conditions**. This includes the Intellectual Property terms, code of conduct, and other important policies.
