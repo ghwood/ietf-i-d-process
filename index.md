@@ -26,7 +26,7 @@ graph LR
     classDef lastIETF fill:blue
     classDef I-D-submit fill:blue
     
-    class I-D-Authoring ----> I-D-submission
+    I-D-Authoring ----> I-D-submission
     class I-D-submission I-D-submit
     I-D-submission ----> Direct-WG-Adopt
     I-D-submission ----> DISPATCH
