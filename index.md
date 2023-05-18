@@ -25,6 +25,7 @@ graph LR
     I-D-submission ----> DISPATCH
     I-D-submission ----> BOF
     I-D-submission ----> expires
+    Direct-WG-Adopt ----> WGLC((WGLC))
     DISPATCH ----> WG-Adopt
     WG-Adopt ----> WGLC
     WGLC ----> AD-Review
