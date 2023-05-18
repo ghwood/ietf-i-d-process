@@ -41,11 +41,7 @@ graph LR
 ```
 
 #### Information about authoring Internet-Drafts
-The [authors.ietf.org](https://authors.ietf.org) site is the central resource site for authors of an Internet-Draft (I-D), with information on how to write an I-D and the tools available to support this. If you are new to authoring then begin with the introduction below or if you are more familiar then the main menu lists multiple individual topics.
-
-See also the [official document listing](https://datatracker.ietf.org/wg/httpapi/documents/).
-
-We talk about potential future work on the mailing list and in the [discussion repo](https://github.com/ietf-wg-httpapi/discussion/discussions).
+The [authors.ietf.org](https://authors.ietf.org) site is the central resource site for authors of an Internet-Draft (I-D), with information on how to write an I-D and the tools available to support this.
 
 ## Note Well
 
