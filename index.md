@@ -31,6 +31,7 @@ graph LR
     I-D-submission ----> Direct-WG-Adopt
     I-D-submission ----> DISPATCH
     I-D-submission ----> BOF
+    I-D-submission ----> expires
     WG-Adopt ----> WGLC
     WGLC --draft-04--> AD-Review
     AD-Review --> IETF-LC
