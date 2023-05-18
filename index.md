@@ -1,23 +1,16 @@
 ---
-title: Building Blocks for HTTP APIs Working Group
+title: I-D Submission process diagram
 layout: main
 ---
 
-This is the home page of the [IETF](https://www.ietf.org/) Building Blocks for HTTP APIs (HTTPAPI) Working Group.
+This page aims to diagrame the I-D submission process.
 
 {: .banner}
-Our mission is to create standard technical specifications to improve use of HTTP for machine-to-machine communications, including HTTP extensions, formats, and best practices.
+Internet-Drafts (I-Ds) are the starting point for discussions in the IETF community. I-Ds may be the basis for Working Group efforts and evetually evolve into RFCs but most are either significantly transformed or abandoned over time.
 
-See our:
+## Additional work on and uses for this diagram
 
-* [Charter](https://datatracker.ietf.org/wg/httpapi/about/) - our scope of work
-* [Working Group Materials](https://github.com/ietf-wg-httpapi/wg-materials) - agendas, minutes, etc.
-* [Mailing list](https://www.ietf.org/mailman/listinfo/httpapi) - announcements, calls for consensus, and general discussion of our work
-* [Discussion repo](https://github.com/ietf-wg-httpapi/discussion/discussions) - alternative venue for discussing ideas about new specifications
-
-## Current and Upcoming Work
-
-The group is currently working on the following specifications (in the GitHub repository indicated). The step in the progress graph with an orange circle represents the current state of the document. The pink colour indicates the status at the last IETF meeting :
+This diagram is created largely to 
 
 #### [Problem Details for HTTP APIs](https://datatracker.ietf.org/doc/draft-ietf-httpapi-rfc7807bis/) - _[repository](https://github.com/ietf-wg-httpapi/rfc7807bis)_
 ```mermaid
