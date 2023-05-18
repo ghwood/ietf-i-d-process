@@ -22,10 +22,13 @@ The group is currently working on the following specifications (in the GitHub re
 #### [Problem Details for HTTP APIs](https://datatracker.ietf.org/doc/draft-ietf-httpapi-rfc7807bis/) - _[repository](https://github.com/ietf-wg-httpapi/rfc7807bis)_
 ```mermaid
 graph LR
-    classDef current fill:orange
-    classDef lastIETF fill:pink
-
-    I-D-submission ----> WG-Adopt
+    classDef I-D-Authoring fill:orange
+    classDef lastIETF fill:blue
+    
+    class I-D-Authoring ----> I-D-submission
+    I-D-submission ----> Direct-WG-Adopt
+    I-D-submission ----> DISPATCH
+    I-D-submission ----> BOF
     WG-Adopt ----> WGLC
     WGLC --draft-04--> AD-Review
     AD-Review --> IETF-LC
