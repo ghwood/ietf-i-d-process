@@ -47,18 +47,6 @@ See also the [official document listing](https://datatracker.ietf.org/wg/httpapi
 
 We talk about potential future work on the mailing list and in the [discussion repo](https://github.com/ietf-wg-httpapi/discussion/discussions).
 
-
-## Who Should Participate
-
-We think that the following sorts of people will be able to effectively contribute to this work:
-
-* **HTTP standards experts**: Those with deep understanding of and experience with the protocol
-* **API practitioners**: Those who create, operate, and use HTTP APIs often
-* **API vendors**: Those who provide products (commercial or Open Source) for serving, designing, securing, etc. APIs
-
-Others are, of course, welcome to join.
-
-
 ## Note Well
 
 **Everyone who submits and I-D to the IETF repository needs to understand the [IETF NOTE WELL](https://www.ietf.org/about/note-well/) conditions**. This includes the Intellectual Property terms, code of conduct, and other important policies.
