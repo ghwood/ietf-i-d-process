@@ -12,6 +12,10 @@ Internet-Drafts (I-Ds) are the starting point for discussions in the IETF commun
 
 This diagram is created to further understand the flow of I-Ds in the IETF.
 
+Areas for possible further work:
++ Additional details about RPC/RSE processing
++ Links to specific resources for each step
+
 #### Generic I-D flow within the IETF
 ```mermaid
 graph LR
