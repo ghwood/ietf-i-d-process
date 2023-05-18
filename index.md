@@ -25,7 +25,8 @@ graph LR
     classDef current fill:orange
     classDef lastIETF fill:pink
 
-    WG-Adopt --draft-03--> WGLC
+    I-D-submission ----> WG-Adopt
+    WG-Adopt ----> WGLC
     WGLC --draft-04--> AD-Review
     AD-Review --> IETF-LC
     class IETF-LC lastIETF
