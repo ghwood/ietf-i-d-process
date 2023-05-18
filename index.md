@@ -24,7 +24,7 @@ graph LR
     I-D-submission ----> Direct-WG-Adopt
     I-D-submission ----> DISPATCH
     I-D-submission ----> BOF
-    I-D-submission ----> expires
+    I-D-submission ----> [expires](https://authors.ietf.org)
     BOF ----> WG-Create
     WG-Create ----> WGLC((WGLC))
     Direct-WG-Adopt ----> WGLC((WGLC))
