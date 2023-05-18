@@ -13,6 +13,7 @@ This repository aims to create a diagram for I-D process that might be incorpora
 The group is currently working on the following specifications (in the GitHub repository indicated). The step in the progress graph with an orange circle represents the current state of the document. The pink colour indicates the status at the last IETF meeting :
 
 #### [Problem Details for HTTP APIs](https://datatracker.ietf.org/doc/draft-ietf-httpapi-rfc7807bis/) - _[repository](https://github.com/ietf-wg-httpapi/rfc7807bis)_
+
 ```mermaid
 graph LR
     classDef current fill:orange
