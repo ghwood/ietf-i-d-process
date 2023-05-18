@@ -24,8 +24,10 @@ The group is currently working on the following specifications (in the GitHub re
 graph LR
     classDef I-D-Authoring fill:orange
     classDef lastIETF fill:blue
+    classDef I-D-submit fill:blue
     
     class I-D-Authoring ----> I-D-submission
+    class I-D-submission I-D-submit
     I-D-submission ----> Direct-WG-Adopt
     I-D-submission ----> DISPATCH
     I-D-submission ----> BOF
